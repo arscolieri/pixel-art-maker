@@ -26,10 +26,18 @@ window.onload = function(){
         selector.appendChild(box);
 
         box.addEventListener('click',function(event){
-           // console.log(event.target.style)
             currentColor = event.target.style.backgroundColor;
             console.log(currentColor)
         })
     }
     document.body.appendChild(selector);
+
+    let colorPicker = document.querySelector('#colorPicker')
+        console.log(colorPicker)
+
+        console.log(event.target.value)
+        colorPicker.addEventListener('change',function(event){
+             currentColor = event.target.value;
+             console.log(currentColor)
+         })
 }
