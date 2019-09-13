@@ -21,12 +21,13 @@ span {
 }
 
 #selector {
-    border: 5px solid black;
+    border: 2px solid black;
     background-color: white;
-    height: 10px;
-    width: 100px;
+    height: 8px;
+    width: 45px;
     margin: auto;
-    margin-bottom: 10px;
+    margin-top: 10px;
     display: grid;
-    grid-template: repeat(5,1fr);
+    grid-template-columns: 9px 9px 9px 9px 9px;
+   
 }
